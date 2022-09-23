@@ -1,0 +1,60 @@
+{
+  "users": [
+    {
+      "name": "Ram",
+      "email": "ram123@gmail.com",
+      "password": "Ram123@",
+      "id": 1
+    },
+    {
+      "name": "test",
+      "email": "test1@gmail.com",
+      "password": "test123",
+      "id": 2
+    },
+    {
+      "name": "Virat",
+      "email": "virat@gmail.com",
+      "password": "virat12",
+      "id": 3
+    },
+    {
+      "name": "Rohit",
+      "email": "rohit1@gmail.com",
+      "password": "rohit12",
+      "id": 4
+    },
+    {
+      "name": "ramesh",
+      "email": "ramesh@test.com",
+      "password": "ramesh123",
+      "id": 5
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 6
+    },
+    {
+      "name": "demo",
+      "email": "demo@test.com",
+      "password": "demo",
+      "id": 7
+    }
+  ],
+  "restaurant": [
+    {
+      "name": "taj",
+      "address": "mumbai",
+      "contact": "10101",
+      "id": 1
+    },
+    {
+      "name": "Kondhana Hotel",
+      "address": "Pune Station",
+      "contact": "10203040",
+      "id": 2
+    }
+  ]
+}
