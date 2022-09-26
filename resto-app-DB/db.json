@@ -11,36 +11,6 @@
       "email": "test1@gmail.com",
       "password": "test123",
       "id": 2
-    },
-    {
-      "name": "Virat",
-      "email": "virat@gmail.com",
-      "password": "virat12",
-      "id": 3
-    },
-    {
-      "name": "Rohit",
-      "email": "rohit1@gmail.com",
-      "password": "rohit12",
-      "id": 4
-    },
-    {
-      "name": "ramesh",
-      "email": "ramesh@test.com",
-      "password": "ramesh123",
-      "id": 5
-    },
-    {
-      "name": "",
-      "email": "",
-      "password": "",
-      "id": 6
-    },
-    {
-      "name": "demo",
-      "email": "demo@test.com",
-      "password": "demo",
-      "id": 7
     }
   ],
   "restaurant": [
@@ -55,6 +25,18 @@
       "address": "Pune Station",
       "contact": "10203040",
       "id": 2
+    },
+    {
+      "name": "New Food",
+      "address": "Mumbai",
+      "contact": "808080222",
+      "id": 3
+    },
+    {
+      "name": "Food point 1",
+      "address": "Pune",
+      "contact": "802020",
+      "id": 4
     }
   ]
 }

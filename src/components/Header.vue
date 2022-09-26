@@ -13,7 +13,7 @@
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
                     <li class="nav-item">
-                        <a class="nav-link ak" href="#">My Profile</a>
+                        <a class="nav-link ak" @click="goToProfile()" href="#">My Profile</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link ak" @click="addResto()" href="#">Add Restaurant</a>
@@ -46,6 +46,10 @@ export default {
         },
         goToHome() {
             this.$router.push({ name: 'Home' });
+        },
+        goToProfile() {
+            this.$router.push({ name: 'UserProfile' });
+            
         }
     }
 

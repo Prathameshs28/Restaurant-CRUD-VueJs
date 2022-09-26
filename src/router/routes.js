@@ -3,6 +3,8 @@ import SignUp from '../components/SignUp.vue'
 import Login from '../components/Login.vue'
 import updateResto from '../components/updateResto.vue'
 import AddResto from '../components/AddResto.vue'  
+import UserProfile from '../components/UserProfile.vue'   
+
 
 
 import {createRouter,createWebHistory} from 'vue-router'
@@ -32,7 +34,12 @@ const routes = [
     {
         name:'updateResto',
         path:'/update-resto/:id',
-        component:updateResto
+        component:updateResto 
+    },
+    {
+        name:'UserProfile',
+        path:'/profile',
+        component:UserProfile 
     }
 ]
 
